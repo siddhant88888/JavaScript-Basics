@@ -1,0 +1,51 @@
+h1 {
+   color: rgb(204, 255, 0)
+   
+}
+
+.mid-container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+body { 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: green;
+    font-weight: bolder;
+    
+}
+
+p {
+    color: white
+    
+}
+
+.capitalize-text {
+    text-transform: uppercase;
+}
+
+#message-el {
+    font-style: italic;
+}
+
+.styled-button {
+    width: 150px; /* Makes the button wide */
+    padding: 10px 20px; /* Adds padding for a better appearance */
+    border: none; /* Removes default border */
+    border-radius: 10px; /* Rounds the edges */
+    background-color: #FFD700; /* Dark yellow color */
+    color: white; /* Text color */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    transition: background-color 0.25s ease; /* Smooth transition for background color change */
+    font-weight: bold;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.styled-button:hover {
+    background-color: #e4e47e; /* Light yellow color on hover */
+    color: black;
+}
